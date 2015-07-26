@@ -508,13 +508,13 @@
 		                      
 		                  </div>
 		                  <div class="col-sm-8">
-		                        <div class="form-group">s
+		                        <div class="form-group">
 		         					 <label for="name">First Name</label>
 		                            <input type="text" class="form-control" name="name" id="name" placeholder="First Name" title="Please enter First Name" required="required">
 		                        </div>
 		                        <div class="form-group">
 		                           	 <label for="name">Last Name</label>
-		                            <input type="text" class="form-control" name="name" id="name" placeholder="Last Name" title="Please enter last Name"  required="required>
+		                            <input type="text" class="form-control" name="name" id="name" placeholder="Last Name" title="Please enter last Name"  required="required">
 		                        </div>
 		                        
 		                    </div>
