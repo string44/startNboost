@@ -508,14 +508,24 @@
 		                      
 		                  </div>
 		                  <div class="col-sm-8">
-		                        <div class="form-group">
-		         					 <label for="name">First Name</label>
-		                            <input type="text" class="form-control" name="name" id="name" placeholder="First Name" title="Please enter First Name" required="required">
-		                        </div>
-		                        <div class="form-group">
-		                           	 <label for="name">Last Name</label>
-		                            <input type="text" class="form-control" name="name" id="name" placeholder="Last Name" title="Please enter last Name"  required="required">
-		                        </div>
+		                        <div class="formfield">
+			                        <div class="col-sm-4 control-label">		         	
+			                        	 <label for="name" class="">First Name</label>
+			                       	</div>
+			                        <div class="col-sm-8">		
+			                            <input type="text" class="form-control " name="name" id="name" placeholder="First Name" title="Please enter First Name" required="required">
+			                        </div>
+			                    </div>
+			                     <div class="form-group">
+			                        <div class="col-sm-4">		         	
+			                        	 <label for="name" class="control-label">Last Name</label>
+			                       	</div>
+			                        <div class="col-sm-8">		
+			                            <input type="text" class="form-control " name="name" id="name" placeholder="Last Name" title="Please enter Last Name" required="required">
+			                        </div>
+			                    </div>
+			                           
+		                     
 		                        
 		                    </div>
 		            </div>
