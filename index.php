@@ -71,22 +71,22 @@
                     <div class="da-slide">
                         <h2>Start in idea & boost it now!</h2>
                         <p> -$index[5] </p>
-                        
+                         <div class="da-img"></div>
                     </div>
                     <div class="da-slide">
                         <h2>We make imaginations into reality!!!</h2>
                         <p>-$index[5]</p>
-                    
+                     <div class="da-img"></div>
                     </div>
                     <div class="da-slide">
                         <h2>HTML5/CSS3</h2>
                         <p>HTML5 is a markup language used for structuring and presenting Web.</p>
-               
+                <div class="da-img"></div>
                     </div>
                     <div class="da-slide">
                         <h2>JavaScript/jQuery</h2>
                         <p>jQuery: Write Less, Do More...</p>
-                      
+                       <div class="da-img"></div>
                     </div>
 				<!--  <nav class="da-arrows">
                         <span class="da-arrows-prev"></span>
