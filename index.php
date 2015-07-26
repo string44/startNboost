@@ -13,7 +13,7 @@
     <![endif]-->
     <title>Start&Boost</title>
     <meta name="description" content="">
-    <meta name="author" content="WebThemez">
+    <meta name="author" content="">
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -49,8 +49,8 @@
                     <ul class="nav navbar-nav" id="mainNav">
                         <li class="active"><a href="#home" class="scroll-link">Home</a></li>
                         <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-                        <li><a href="#skills" class="scroll-link">Login</a></li>
-                        <li><a href="#experience" class="scroll-link">Register</a></li>
+                        <li><a href="#" class="scroll-link"  data-toggle="modal" data-target="#login">Login</a></li>
+                        <li><a href="#" class="scroll-link"  data-toggle="modal" data-target="#register1">Register</a></li>
                         <li><a href="#portfolio" class="scroll-link">Top 5 ideas</a></li>
                         <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
                     </ul>
@@ -65,28 +65,28 @@
     <div id="#top"></div>
     <section id="home">
         <div class="banner-container">
-            <img src="images/banner-bg.jpg" alt="banner" />
+            <img src="images/banner-bg.jpg" alt="banner" width="1535px" height="650px" />
             <div class="container banner-content">
                 <div id="da-slider" class="da-slider">
                     <div class="da-slide">
                         <h2>Start in idea & boost it now!</h2>
                         <p> -$index[5] </p>
-                        <div class="da-img"></div>
+                        
                     </div>
                     <div class="da-slide">
                         <h2>We make imaginations into reality!!!</h2>
                         <p>-$index[5]</p>
-                        <div class="da-img"></div>
+                    
                     </div>
                     <div class="da-slide">
                         <h2>HTML5/CSS3</h2>
                         <p>HTML5 is a markup language used for structuring and presenting Web.</p>
-                        <div class="da-img"></div>
+               
                     </div>
                     <div class="da-slide">
                         <h2>JavaScript/jQuery</h2>
                         <p>jQuery: Write Less, Do More...</p>
-                        <div class="da-img"></div>
+                      
                     </div>
 				<!--  <nav class="da-arrows">
                         <span class="da-arrows-prev"></span>
@@ -118,7 +118,7 @@
               <!-- item -->
                 <div class="col-md-3 text-center tileBox">
                    <div class="txtHead"> <i class="fa fa-desktop"></i>
-                    <h3>Lyneth <span class="id-color">Cutamura</span></h3></div>
+                    <h3>Lyneth <span class="id-color">Cutamora</span></h3></div>
                     <p>Project Manager</p>
                 </div>
                 <!-- end: -->
@@ -156,57 +156,11 @@
             </div>
         </div>
     </section>
-    <!--Quote-->
-    <section id="quote" class="bg-parlex">
-        <div class="parlex-back">
-            <div class="container secPad text-center">
-				<h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
-            </div>
-            <!--/.container-->
-        </div>
-    </section>
+   
+
+   
     
-    <!--Skills-->
-    <section id="skills" class="secPad white">
-    	<div class="container">
-        <div class="heading text-center">
-                <!-- Heading -->
-                <h2>Login</h2>
-                  <div class="col-sm-4">
-                      
-                  </div>
-                  <div class="col-sm-4">
-                        <div class="form-group">
-                            <label for="name">Username</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your Username">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Password</label>
-                            <input type="password" class="form-control" name="email" id="email" placeholder="Enter password" title="Please enter your password">
-                        </div>
-                    </div>
-            </div>
-        	<div class="row">
-                <div class="col-sm-12">
-                     
-                </div>
-                <div class="col-sm-6">
-               
-                </div>
-            </div>
-        </div>        
-    </section>
-    
-    <!--Experience-->
-    <section id="experience" class="secPad">
-    	<div class="container">     
-           <div class="heading text-center">
-                <!-- Heading -->
-                <h2>Register</h2>
-              
-            </div>
-        </div>
-    </section>
+   
    <!--Portfolio-->
     <section id="portfolio" class="page-section section appear clearfix secPad">
         <div class="container">
@@ -436,6 +390,150 @@
             <!-- / .row -->
         </div>
     </section>
+    <!-- index[1]:mao ni ang login nga mo pop-up ko ig click sa login...-->
+       <!-- Modal Request sent-->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+           
+          </div>
+          <div class="modal-body">
+     			<!--login-->
+  
+		    	<div class="container">
+		        <div class="heading text-center">
+		                <!-- Heading -->
+		                <h2>Login</h2>
+		                  <div class="col-sm-4">
+		                      
+		                  </div>
+		                  <div class="col-sm-4">
+		                        <div class="form-group">
+		                            <label for="name">Username</label>
+		                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your Username">
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="email">Password</label>
+		                            <input type="password" class="form-control" name="email" id="email" placeholder="Enter password" title="Please enter your password">
+		                        </div>
+		                         <div class="form-group">
+		                             <button class="btn btn-primary btn-block" type="submit" data-toggle="modal" data-target="#myModal">Login</button>
+		                         </div>
+		                    </div>
+		            </div>
+		        	<div class="row">
+		                <div class="col-sm-12">
+		                     
+		                </div>
+		                <div class="col-sm-6">
+		               
+		                </div>
+		            </div>
+		        </div>       
+		      
+        </div>
+      </div>
+    </div>
+    </div>
+     <!--- ************************************************************-->
+   <!-- index[1]:mao ni ang register nga mo pop-up ko ig click sa login...-->
+       <!-- Modal Request sent-->
+    <div class="modal fade" id="register1" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+           
+          </div>
+          <div class="modal-body">
+     			<!--register-->
+  
+		    	<div class="container">
+		        <div class="heading text-center">
+		                <!-- Heading -->
+		          
+		                  <div class="col-sm-2">
+		                      
+		                  </div>
+		                  <div class="col-sm-8">
+		                        <div class="form-group">
+		                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" aria-label="Close" data-dismiss="modal"  data-target="#ideator"  >Ideator</button>
+		                              <button type="button" class="btn btn-primary btn-lg">Investor</button>
+		                                              <button type="button" class="btn btn-primary btn-lg">Company</button>	
+		                        </div>
+		                        <div class="form-group">
+		                           
+		                        </div>
+		                         <div class="form-group">
+		             
+		                         </div>
+		                    </div>
+		            </div>
+		        	<div class="row">
+		                <div class="col-sm-12">
+		                     
+		                </div>
+		                <div class="col-sm-6">
+		               
+		                </div>
+		            </div>
+		        </div>       
+		      
+        </div>
+      </div>
+    </div>
+    </div>
+     <!--- ************************************************************-->
+      <!-- index[1]:mao ni ang ideator button nga mo pop-up ko ig click sa ideator...-->
+       <!-- Modal Request sent-->
+    <div class="modal fade" id="ideator" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+           
+          </div>
+          <div class="modal-body">
+     			<!--register-->
+  
+		    	<div class="container">
+		        <div class="heading text-center">
+		                <!-- Heading -->
+		          
+		                  <div class="col-sm-2">
+		                      
+		                  </div>
+		                  <div class="col-sm-8">
+		                        <div class="form-group">s
+		         					 <label for="name">First Name</label>
+		                            <input type="text" class="form-control" name="name" id="name" placeholder="First Name" title="Please enter First Name" required="required">
+		                        </div>
+		                        <div class="form-group">
+		                           	 <label for="name">Last Name</label>
+		                            <input type="text" class="form-control" name="name" id="name" placeholder="Last Name" title="Please enter last Name"  required="required>
+		                        </div>
+		                        
+		                    </div>
+		            </div>
+		        	<div class="row">
+		                <div class="col-sm-12">
+		                     
+		                </div>
+		                <div class="col-sm-6">
+		               
+		                </div>
+		            </div>
+		        </div>       
+		      
+        </div>
+      </div>
+    </div>
+    </div>
+     <!--- ************************************************************-->
     <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
 
     <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
